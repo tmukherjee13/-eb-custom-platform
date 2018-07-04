@@ -1,0 +1,18 @@
+version: "1.0"
+
+provisioner:
+  type: packer
+  template: custom_platform.json
+  flavor: ubuntu1604
+
+metadata:
+  maintainer: Tarun Mukherjee
+  description: Sample PHP Container.
+  operating_system_name: Ubuntu
+  operating_system_version: 16.04
+  programming_language_name: ECMAScript
+  programming_language_version: ECMA-262
+  framework_name: PHP
+  framework_version: 7.0
+  app_server_name: "none"
+  app_server_version: "none"
