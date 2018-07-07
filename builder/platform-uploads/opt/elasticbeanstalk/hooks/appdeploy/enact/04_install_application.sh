@@ -16,6 +16,8 @@ set -xe
 
 . /etc/NginxPlatform/platform.config
 
+source ~/.profile
 cd $LIVE_DIR
-composer update -v
 php init --env=Development --overwrite=a
+export COMPOSER_HOME=/root
+/usr/bin/composer update -v

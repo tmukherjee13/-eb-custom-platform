@@ -5,7 +5,7 @@
 ### INSTALL AND VALIDATE NODE ####
 echo "SETTING UP NODE ON THE INSTANCE"
 apt install -y wget tree git composer
-
+source ~/.profile
 
 echo "Creating base directories for platform."
 mkdir -p $BEANSTALK_DIR/deploy/appsource/
