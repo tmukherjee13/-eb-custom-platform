@@ -10,6 +10,7 @@ php-xsl \
 php-mysqli \
 php-gd \
 php-mcrypt \
+php-mbstring \
 php-fpm
 
 #chkconfig php-fpm on

@@ -4,7 +4,7 @@
 
 ### INSTALL AND VALIDATE NODE ####
 echo "SETTING UP NODE ON THE INSTANCE"
-apt install -y wget tree git
+apt install -y wget tree git composer
 
 
 echo "Creating base directories for platform."
