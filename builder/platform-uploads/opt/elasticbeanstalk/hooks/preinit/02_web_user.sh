@@ -22,5 +22,5 @@ echo "Creating web user if not already exists"
 
 if ! id -u $APP_USER
 then
-    adduser --system --no-create-home --group $APP_USER --shell /sbin/nologin $APP_USER
+    adduser --system --no-create-home --group $APP_USER --shell /sbin/nologin
 fi
