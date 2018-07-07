@@ -12,7 +12,7 @@ mkdir -p $BEANSTALK_DIR/deploy/appsource/
 mkdir -p /var/app/staging
 mkdir -p /var/app/current
 mkdir -p /var/log/nginx/healthd/
-chown nginx:nginx /var/log/nginx/healthd/
+chown www-data:www-data /var/log/nginx/healthd/
 
 
 ## WRITE NODE_DIR TO CONFIG ON INSTANCE TO BE AVAILABLE FOR HOOKS

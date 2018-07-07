@@ -38,7 +38,7 @@ NODE_DIR="/var/nodejs"
 ########################
 ### CONTAINER CONFIG ###
 ########################
-CONTAINER_SCRIPTS_DIR="/opt/SampleNodePlatform/bin"
-CONTAINER_CONFIG_FILE_DIR="/etc/SampleNodePlatform"
+CONTAINER_SCRIPTS_DIR="/opt/NginxPlatform/bin"
+CONTAINER_CONFIG_FILE_DIR="/etc/NginxPlatform"
 CONTAINER_CONFIG_FILE_NAME="platform.config"
 CONTAINER_CONFIG="$CONTAINER_CONFIG_FILE_DIR/$CONTAINER_CONFIG_FILE_NAME"
