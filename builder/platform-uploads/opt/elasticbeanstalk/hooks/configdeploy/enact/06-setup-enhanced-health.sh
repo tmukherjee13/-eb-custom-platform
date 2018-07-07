@@ -15,12 +15,4 @@ then
 	# Track Nginx
 	/opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy nginx
 	/opt/elasticbeanstalk/bin/healthd-configure --appstat-log-path /var/log/nginx/healthd/application.log --appstat-uni sec --appstat-timestamp-on 'completion' 
-
-	## restart healthd 
-	if [ ! -z "$RESTART_HEALTHD" ]; then
-		/opt/elasticbeanstalk/bin/healthd-restart
-	else
-		echo "Not restarting HealthD since no processes to track"
-		exit 1
-	fi
 fi

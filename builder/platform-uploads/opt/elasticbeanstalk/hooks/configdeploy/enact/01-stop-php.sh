@@ -11,4 +11,4 @@
 . /etc/NginxPlatform/platform.config
 
 echo "Stopping PHP-FPM"
-# service php-fpm stop
+service php7.0-fpm stop

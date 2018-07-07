@@ -9,4 +9,4 @@
 #!/bin/bash -xe
 
 echo "Starting PHP-FPM"
-# service php-fpm start
+service php7.0-fpm start
