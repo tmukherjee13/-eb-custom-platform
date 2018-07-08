@@ -22,7 +22,7 @@ php init --env=Development --overwrite=a
 export COMPOSER_HOME=/root
 /usr/bin/composer update -v
 
-if [ -d vendor/bower ]
+if [ ! -d vendor/bower ]
 then
     cp -r vendor/bower-asset vendor/bower
     chown -R webapp:webapp vendor
