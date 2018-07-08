@@ -27,3 +27,16 @@ then
     cp -r vendor/bower-asset vendor/bower
     chown -R webapp:webapp vendor
 fi
+
+
+if [ ! -d frontend/web/assets ]
+then
+    mkdir -p frontend/web/assets
+    chown -R webapp:webapp frontend/web/assets
+fi
+
+if [ ! -d backend/web/assets ]
+then
+    mkdir -p backend/web/assets
+    chown -R webapp:webapp backend/web/assets
+fi
