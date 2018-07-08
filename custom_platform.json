@@ -7,12 +7,12 @@
     "builders": [{
         "type": "amazon-ebs",
         "name": "HVM AMI builder",
-        "region": "eu-central-1",
-        "source_ami": "ami-415b7baa",
+        "region": "us-west-2",
+        "source_ami": "ami-db710fa3",
         "instance_type": "t2.micro",
         "ssh_username": "ubuntu",
         "ssh_pty": "true",
-        "ami_name": "Beanstalk Custom Platform running Node on Ubuntu Server 16.04 LTS (built on {{isotime \"20060102150405\"}})",
+        "ami_name": "Beanstalk Custom Platform running PHP on Ubuntu Server 16.04 LTS (built on {{isotime \"20060102150405\"}})",
         "tags": {
             "eb_platform_name": "{{user `platform_name`}}",
             "eb_platform_version": "{{user `platform_version`}}",
