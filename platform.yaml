@@ -3,7 +3,7 @@ version: "1.0"
 provisioner:
   type: packer
   template: custom_platform.json
-  flavor: ubuntu1804
+  flavor: ubuntu1604
 
 metadata:
   maintainer: Tarun Mukherjee
