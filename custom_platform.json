@@ -7,9 +7,9 @@
     "builders": [{
         "type": "amazon-ebs",
         "name": "HVM AMI builder",
-        "region": "us-west-2",
-        "source_ami": "ami-db710fa3",
-        "instance_type": "t2.micro",
+        "region": "eu-central-1",
+        "source_ami": "ami-0d9634d5c860a3200",
+        "instance_type": "t2.medium",
         "ssh_username": "ubuntu",
         "ssh_pty": "true",
         "ami_name": "Beanstalk Custom Platform running PHP on Ubuntu Server 16.04 LTS (built on {{isotime \"20060102150405\"}})",

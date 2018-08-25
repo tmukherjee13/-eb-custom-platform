@@ -3,13 +3,13 @@ version: "1.0"
 provisioner:
   type: packer
   template: custom_platform.json
-  flavor: ubuntu1604
+  flavor: ubuntu1804
 
 metadata:
   maintainer: Tarun Mukherjee
-  description: Sample PHP Container.
+  description: Ubuntu Nginx PHP Container.
   operating_system_name: Ubuntu
-  operating_system_version: 16.04
+  operating_system_version: 18.04
   programming_language_name: ECMAScript
   programming_language_version: ECMA-262
   framework_name: PHP
